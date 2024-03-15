@@ -17,7 +17,6 @@ namespace Bcit.Function
 
         public HttpWebApi(ILogger<HttpWebApi> logger, SchoolContext context)
         {
-            //test
             _logger = logger;
             _context = context;
         }
