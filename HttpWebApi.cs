@@ -59,7 +59,7 @@ namespace Bcit.Function
                 response.Headers.Add("Content-Type", "application/json");
                 await response.WriteStringAsync("Not Found");
                 return response;
-            }
+            } 
             var response2 = req.CreateResponse(HttpStatusCode.OK);
             response2.Headers.Add("Content-Type", "application/json");
             await response2.WriteStringAsync(JsonConvert.SerializeObject(student));
